@@ -15,8 +15,16 @@ RemoveThanatos.config = config
 
 ModUtil.LoadOnce( function()
     if config.RemoveThanatos then
-        ModUtil.MapSetTable(EncounterData.BaseThanatos, {
-            MaxThanatosSpawnsThisRun = 0,
+        ModUtil.MapSetTable(EncounterData, {
+            ThanatosTartarus = {
+                MaxThanatosSpawnsThisRun = 0,
+            },
+            ThanatosAsphodel = {
+                MaxThanatosSpawnsThisRun = 0,
+            },
+            ThanatosElysium = {
+                MaxThanatosSpawnsThisRun = 0,
+            },
         })
     end    
 end)
