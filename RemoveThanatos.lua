@@ -26,11 +26,11 @@ ModUtil.WrapBaseFunction("StartRoom", function ( baseFunc, currentRun, currentRo
     PrintUtil.showModdedWarning()
 
     baseFunc(currentRun, currentRoom)
-end, MinibossControl)
+end, RemoveThanatos)
 
 -- Scripts/UIScripts.lua : 145
 ModUtil.WrapBaseFunction("ShowCombatUI", function ( baseFunc, flag )
     PrintUtil.showModdedWarning()
 
     baseFunc(flag)
-end, MinibossControl)
+end, RemoveThanatos)
