@@ -1,0 +1,2 @@
+:: RemoveThanatos
+Import "RemoveThanatos.lua"
